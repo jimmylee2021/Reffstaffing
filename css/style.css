@@ -68,7 +68,7 @@ nav.nav {
         linear-gradient(rgba(5, 43, 81, 0.45), rgba(5, 43, 81, 0.45)),
         url(../img/Menu\ slide\ image.png) center no-repeat;
     width: 100%;
-    min-height: 100dvh;
+    min-height: 60dvh;
     background-size: cover;
 }
 
@@ -210,7 +210,7 @@ nav.nav {
         url(../img/About\ us\ space.png) center no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 100dvh;
+    min-height: 60dvh;
     margin-top: 100px;
 }
 
