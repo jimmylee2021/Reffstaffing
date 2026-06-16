@@ -63,12 +63,14 @@ nav.nav {
     color: #0A9589;
 }
 
+
+
 .home {
     background:
         linear-gradient(rgba(5, 43, 81, 0.45), rgba(5, 43, 81, 0.45)),
         url(../img/Menu\ slide\ image.png) center no-repeat;
     width: 100%;
-    min-height: 60dvh;
+    min-height: 100dvh;
     background-size: cover;
 }
 
@@ -210,7 +212,7 @@ nav.nav {
         url(../img/About\ us\ space.png) center no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 60dvh;
+    min-height: 100dvh;
     margin-top: 100px;
 }
 
@@ -316,6 +318,7 @@ footer {
     padding: 20px;
     width:100%;
     align-items: center;
+    margin-top: 100px;
     background: #052B51;
 }
 
@@ -381,6 +384,7 @@ letter-spacing: 0%;
         width: 100%;
         box-shadow: .0.5rem 1rem rgba(0, 0, 0, .1);
         background: #fff;
+        z-index: 1;
     }
 
     nav.nav.active.sticky {
@@ -417,7 +421,7 @@ letter-spacing: 0%;
         background:
             linear-gradient(rgba(5, 43, 81, 0.45), rgba(5, 43, 81, 0.45)),
             url(../img/Menu\ slide\ image.png) center no-repeat;
-        min-height: 100dvh;
+        min-height: 60dvh;
         background-size: cover;
     }
 
@@ -484,7 +488,7 @@ letter-spacing: 0%;
             linear-gradient(rgba(5, 43, 81, 0.45), rgba(5, 43, 81, 0.45)),
             url(../img/About\ us\ space.png) center no-repeat;
         width: 100%;
-        min-height: 100dvh;
+        min-height: 60dvh;
         background-size: cover;
     }
 

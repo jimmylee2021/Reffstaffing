@@ -1,0 +1,144 @@
+#about{
+     background:
+            linear-gradient(rgba(5, 43, 81, 0.45), rgba(5, 43, 81, 0.45)),
+            url(../img/Rectangle\ 34.png) center no-repeat;
+        min-height: 100dvh;
+        background-size: cover;
+}
+.about-flex {
+ display: flex;
+ margin-top: 50px;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ padding: 50px;
+}
+
+.p-txt {
+    width: 502px;
+    margin-top: 30px;
+}
+
+.p-txt p {
+    font-weight: 300;
+    font-style: Light;
+    font-size: 30px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+.col-img-div img{
+    width:500px;
+}
+#two{
+    margin-top: -100px;
+    margin-left: -50px;
+}
+.abt-row .btn-div a{
+    display: inline-block;
+    margin: 0px;
+
+}
+.why-us-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.why-us-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #0A9589;
+    padding: 20px;
+    height: 249px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.why-us-item > div > p{
+    font-family: Montserrat;
+font-weight: 400;
+width:950px;
+margin-top: 15px;
+font-style: Regular;
+font-size: 20px;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.why-us-btn{
+    color: black;
+    padding: 10px 24px;
+    margin-top: 20px;
+    background: #ffff;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+@media (max-width: 991px) {
+
+    #about{
+     background:
+            linear-gradient(rgba(5, 43, 81, 0.45), rgba(5, 43, 81, 0.45)),
+            url(../img/Rectangle\ 34.png) center no-repeat;
+        min-height: 60dvh;
+        background-size: cover;
+}
+     .p-txt {
+    width: 300px;
+    margin-top: 30px;
+}
+.p-txt p {
+    font-family: Montserrat;
+font-weight: 300;
+font-style: Light;
+font-size: 15px;
+leading-trim: NONE;
+line-height: 35px;
+letter-spacing: 0%;
+
+}
+.col-img-div{
+    margin-top: 50px; 
+    justify-content: center;
+    align-items: center;
+}
+.col-img-div img{
+    width:300px;
+}
+ .about-flex {
+ display: flex;
+ margin-top: 50px;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ padding: 50px;
+}
+.why-us-item{
+    border: 1px solid #0A9589;
+    padding: 20px;
+    width: 218.58px;
+    height: 187px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.why-us-item > div > h1 {
+    font-size: 16px;
+}
+ .why-us-item > div > p{
+    font-family: Montserrat;
+font-weight: 400;
+width: 180.46px;
+font-style: Regular;
+font-size: 10px;
+leading-trim: NONE;
+line-height: 12px;
+letter-spacing: 0%;
+text-align: center;
+
+ }
+
+}

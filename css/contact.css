@@ -1,0 +1,214 @@
+#contact{
+    background:
+        linear-gradient(rgba(5, 43, 81, 0.45), rgba(5, 43, 81, 0.45)),
+        url(../img/Rectangle\ 34\ \(2\).png) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100dvh;
+}
+#contact .h1-div{
+    margin-top: 50px;
+}
+.form-div {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+}
+.form-txt h1 {
+    font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 55px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.form-txt p {
+    font-family: Montserrat;
+font-weight: 400;
+width: 300px;
+margin-top: 20px;
+font-style: Regular;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.form-input {
+    margin-top: 30px;
+}
+
+.form-input input,
+.form-input textarea,
+button {
+    padding: 15px;
+    width: 600px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #000000;
+}
+
+.form-input textarea {
+    height: 286px;
+    resize: none;
+}
+
+.contact-boxes {
+    background: #052B51;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    height: 200px;
+}
+.contact-bx-img img{
+    width: 60px;
+    height: 60px;
+}
+.contact-box-items{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.contact-bx-header h1{
+     font-family: Montserrat;
+font-weight: 700;
+margin-top: 15px;
+font-style: Bold;
+font-size: 30px;
+color: #fff;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.contact-bx-p p {
+     font-family: Montserrat;
+font-weight: 400;
+margin-top: 10px;
+font-style: Regular;
+font-size: 20px;
+ color: #fff;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+button {
+    margin-top: 30px;
+    background: #0A9589;
+    border-radius: 50px;
+    border: 1px solid #0A9589;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 112.00000000000001%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.form-input label {
+    font-family: Montserrat;
+    margin: 10px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+@media (max-width: 991px) {
+     #contact{
+        min-height: 60dvh;
+     }
+      .form-div{
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+      }
+      form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .form-input input, .form-input textarea, button{
+        width: 300px;
+        border-radius: 10px;
+      }
+      .form-input textarea {
+        height: 160px;
+      }
+      .form-txt h1{
+         font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+      }
+      .form-txt p {
+         font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+      }
+      button{
+         font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 10px;
+leading-trim: NONE;
+line-height: 112.00000000000001%;
+letter-spacing: 0%;
+text-align: center;
+
+      }
+       .contact-boxes {
+    width: 300px;
+    border-radius: 10px;
+}
+.contact-bx-header h1{
+     font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.contact-bx-p p {
+    font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+}
