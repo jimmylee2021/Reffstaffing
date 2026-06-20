@@ -4,7 +4,7 @@
         url(../img/Rectangle\ 34\ \(2\).png) center no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 100dvh;
+    min-height: 70dvh;
 }
 #contact .h1-div{
     margin-top: 50px;
@@ -133,8 +133,13 @@ button {
 
 @media (max-width: 991px) {
      #contact{
-        min-height: 60dvh;
-     }
+    background:
+        linear-gradient(rgba(5, 43, 81, 0.45), rgba(5, 43, 81, 0.45)),
+        url(../img/Rectangle\ 56\ \(1\).png) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 50dvh;
+}
       .form-div{
         justify-content: center;
         align-items: center;
@@ -210,5 +215,16 @@ letter-spacing: 0%;
 text-align: center;
 
 }
+#contact .small-div p {
+ font-size: 16px;
+}
 
+}
+
+@media (min-width: 400px)  and (max-width: 1024px) {
+    #contact{
+        min-height: 40vh;
+        background-position: center;
+    }
+    
 }

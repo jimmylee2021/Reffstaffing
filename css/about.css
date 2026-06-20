@@ -2,12 +2,21 @@
      background:
             linear-gradient(rgba(5, 43, 81, 0.45), rgba(5, 43, 81, 0.45)),
             url(../img/Rectangle\ 34.png) center no-repeat;
-        min-height: 100dvh;
+        min-height: 90dvh;
         background-size: cover;
+}
+#about .home-content{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 150px ;
+}
+#about .small-div  {
+    width: 600px;
 }
 .about-flex {
  display: flex;
- margin-top: 50px;
+ margin-top: 30px;
  justify-content: space-between;
  align-items: center;
  flex-wrap: wrap;
@@ -22,14 +31,14 @@
 .p-txt p {
     font-weight: 300;
     font-style: Light;
-    font-size: 30px;
+    font-size: 25px;
     leading-trim: NONE;
     line-height: 100%;
     letter-spacing: 0%;
 
 }
 .col-img-div img{
-    width:500px;
+    width:450px;
 }
 #two{
     margin-top: -100px;
@@ -83,9 +92,12 @@ text-align: center;
     #about{
      background:
             linear-gradient(rgba(5, 43, 81, 0.45), rgba(5, 43, 81, 0.45)),
-            url(../img/Rectangle\ 34.png) center no-repeat;
+            url(../img/Rectangle\ 56\ \(2\).png) center no-repeat;
         min-height: 60dvh;
         background-size: cover;
+}
+ #about .small-div  {
+    width: 300px;
 }
      .p-txt {
     width: 300px;
@@ -140,5 +152,18 @@ letter-spacing: 0%;
 text-align: center;
 
  }
+
+}
+
+@media (min-width: 400px)  and (max-width: 1024px) {
+    #about{
+        min-height: 50vh;
+    }
+    .about-flex {
+        padding: 20px;
+    }
+    .col-img-div img{
+    width:300px;
+}
 
 }

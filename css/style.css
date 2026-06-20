@@ -62,6 +62,10 @@ nav.nav {
 .nav a:hover {
     color: #0A9589;
 }
+.nav a.glow {
+    color: #0A9589;
+    text-decoration: underline;
+}
 
 
 
@@ -124,6 +128,10 @@ nav.nav {
     border-radius: 50px;
     font-size: 20px;
     margin: 10px;
+}
+.btn-div a:hover{
+    background:#ffff;
+    color: #052B51;
 }
 
 .row-div {
@@ -421,7 +429,7 @@ letter-spacing: 0%;
         background:
             linear-gradient(rgba(5, 43, 81, 0.45), rgba(5, 43, 81, 0.45)),
             url(../img/Menu\ slide\ image.png) center no-repeat;
-        min-height: 60dvh;
+        min-height: 80dvh;
         background-size: cover;
     }
 
@@ -459,6 +467,10 @@ letter-spacing: 0%;
         border-right: none;
         border-bottom: 0.01px solid #000000;
     }
+    .row-items:last-child {
+    border-bottom: none;
+}
+
 
     .row-items h2 {
         font-size: 15px;
@@ -578,4 +590,13 @@ letter-spacing: 0%;
     margin: 0px;
     margin-left: 20px;
 }
+}
+
+@media (min-width: 400px)  and (max-width: 1024px) {
+    .about-us{
+        min-height: 50vh;
+    }
+    .home{
+        min-height: 55vh;
+    }
 }
