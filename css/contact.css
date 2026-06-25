@@ -50,7 +50,7 @@ button {
     width: 600px;
     border-radius: 25px;
     outline: none;
-    border: 1px solid #000000;
+    border: 1px solid #0A9589;
 }
 
 .form-input textarea {
@@ -139,6 +139,12 @@ button {
     background-size: cover;
     width: 100%;
     min-height: 50dvh;
+}
+#contact .h1-div{
+    margin-top: 20px;
+}
+#contact .small-div{
+    margin-top: 20px;
 }
       .form-div{
         justify-content: center;

@@ -1,0 +1,126 @@
+#policy {
+    background:
+        linear-gradient(rgba(5, 43, 81, 0.45), rgba(5, 43, 81, 0.45)),
+        url(../img/Rectangle\ 34\ \(3\).png) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 70dvh;
+}
+
+#policy .small-div p {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-style: Italic;
+    font-size: 30px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.main-bx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.main-bx-item {
+    margin: 20px;
+    width: 900px;
+}
+
+.main-bx-item h1 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 27px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.main-bx-small {
+    margin-top: 30px;
+}
+
+.main-bx-small p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0%;
+
+}
+
+.main-bx-small-list {
+    list-style-type: "- ";
+}
+
+@media (max-width: 991px) {}
+
+@media (max-width:769px) {
+    #policy {
+        background:
+            linear-gradient(rgba(5, 43, 81, 0.45), rgba(5, 43, 81, 0.45)),
+            url(../img/Rectangle\ 56\ \(4\).png) center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 30dvh;
+    }
+
+    .main-bx-item {
+        width: 300px;
+    }
+
+    .main-bx {
+        padding: 20px;
+    }
+
+    .main-bx-item h1 {
+        font-family: Montserrat;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 15px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+
+    }
+
+    .main-bx-small p {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 12px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+
+    }
+
+    #policy .small-div p {
+        font-family: Montserrat;
+        font-weight: 300;
+        font-style: Italic;
+        font-size: 13px;
+        leading-trim: NONE;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+
+
+    }
+}
